@@ -15,7 +15,7 @@ export default function Grafico({route}) {
     const [todos, setTodos] = useState([])
     const [data, setData] = useState([]);
     const [data2, setData2] = useState([])
-
+/*Holi*/
     useEffect(() => {     
         analyze();
     }, [])
